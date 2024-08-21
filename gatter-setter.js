@@ -5,7 +5,6 @@ class User {
   constructor(name, password) {
     this.#name = name;
     this.#password = password;
-    // this.showDetail() // cell method in class
   }
   showDetail() {
     console.log(`ชื่อผู้ใช้ : ${this.#name} รหัสผ่าน : ${this.#password}`);
